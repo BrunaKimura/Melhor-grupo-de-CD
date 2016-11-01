@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="css/mainpage.css">
+	<link rel="icon" type="image/png" href="image/et.png" /> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	<title>Teste de QI</title>
+
+	
+</head>
+<body>
+
+	<script type="text/javascript">
+		$(function(){
+		  $('.multipleslides').each(function(){
+		    // scope everything for each slideshow
+		    var $this = this;
+		    $('> :gt(0)', $this).hide();
+		    setInterval(function(){$('> :first-child',$this).fadeOut().next().fadeIn().end().appendTo($this);}, 2000);
+		  	})
+		});
+	</script>
+
+
+
+		<h1>Descubra seu QI</h1>
+
+		<h3>Encontre a Rainha de Copas:</h3>
+
+		<div class="centro">
+			<div class="main">
+		        <div class="view view-first">
+			      	<img src="image/Carta_tras.jpg" alt='' width="210" height="300">
+					<div class="mask Clara">
+		                <h2>Rainha de Copas</h2>
+		                <br>
+		                <br>
+		                <br>
+		                <br>
+		                <br>
+		                <br>
+		                <p>Você ACHOU! Parabéns </p>
+	                	<a href="Clara/C_Sobremim.html" class="info">Resultado!</a>
+					</div>
+		        </div>  
+			</div>
+
+			<div class="main">
+		        <div class="view view-first">
+		        	<img src="image/Carta_tras.jpg" alt='' width="210" height="300">
+						<div class="mask Bruna">
+			                <h2>Valete de Ouros</h2>
+			                <br>
+			                <br>
+			                <br>
+			                <br>
+			                <br>
+			                <br>
+			                <p>Você ERROU!</p>
+		                	<a href="Bruna/B_Sobremim.html" class="info">Resultado!</a>
+		        		</div>
+	        	</div>  
+			</div>
+
+			<div class="main">
+				<div class="view view-first">
+						<img src="image/Carta_tras.jpg" alt='' width="210" height="300">
+
+					<div class="mask Felipe">
+		                <h2>Rei de Espadas</h2>
+		                <br>
+		                <br>
+		                <br>
+		                <br>
+		                <br>
+		                <br>
+		                <p>Você ERROU!</p>
+	                	<a href="Felipe/F_Sobremim.html" class="info">Resultado!</a>
+		            </div>
+		        </div>  
+			</div>
+
+			<div class="main">
+		        <div class="view view-first">
+						<img src="image/Carta_tras.jpg" alt='' width="210" height="300">
+					
+					<div class="mask Victor">
+		                <h2>Rainha de Paus</h2>
+		                <br>
+		                <br>
+		                <br>
+		                <br>
+		                <br>
+		                <br>
+		                <p>Você ERROU!</p>
+	                	<a href="Victor/V_Sobremim.html" class="info">Resultado!</a>
+		            </div>
+		        </div>  
+			</div>
+		</div>	
+
+</body>

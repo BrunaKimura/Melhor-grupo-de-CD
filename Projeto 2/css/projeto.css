@@ -1,0 +1,41 @@
+h1 {
+	font-family: oinegrito;
+	font-size: 60px;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 40px;
+	text-shadow: 2px 2px #000000;
+}
+
+p{
+	color: #000000;
+	font-family: oinormal;
+	font-weight: bold;
+	margin-bottom: 200px;
+	font-size: 20px;
+
+}
+
+body {
+	font-family: oinormal;
+	font-size: 15px;
+	text-align: left;
+	color: #ffffff;
+	background-color: #000000;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-image: url("../image/Imagem3.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@font-face {
+     font-family: oinormal;
+     src: url('fonts/economica.regular.ttf');
+}
+
+@font-face {
+     font-family: oinegrito;
+     src: url('fonts/economica.bold.ttf');
+}
